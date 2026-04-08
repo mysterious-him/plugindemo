@@ -13,7 +13,7 @@ public class DDUIMainMenu {
      * @param player 目标玩家
      */
     public static void show(Player player) {
-
+        player.sendMessage("§e[调试] form.show() 已执行");
         CustomForm form = new CustomForm("§l主菜单");
 
         form.header("§6欢迎来到服务器")
@@ -84,7 +84,7 @@ public class DDUIMainMenu {
                 .divider()
                 .label("§7Powered by DDUI | Nukkit-MOT")
                 .closeButton();
-
+        player.sendMessage("§e[调试] form.show() 已执行完毕");
         form.show(player);
     }
 
