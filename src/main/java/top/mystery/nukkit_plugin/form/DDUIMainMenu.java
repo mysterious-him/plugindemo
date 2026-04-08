@@ -23,19 +23,19 @@ public class DDUIMainMenu {
                 // === 第一行：3个按钮 ===
 
                 // 玩家操作：查看/管理玩家信息（踢人、封禁、查看资料等）
-                .button("玩家操作", p -> {
+                .button("textures/items/iron_sword.png", p -> {
                     p.sendMessage("§a[菜单] §f你点击了「玩家操作」");
                     // TODO: 在这里添加玩家操作的逻辑
                 })
 
                 // 坐标点：查看/设置传送点、地标等
-                .button("坐标点", p -> {
+                .button("textures/items/iron_sword.png", p -> {
                     p.sendMessage("§a[菜单] §f你点击了「坐标点」");
                     // TODO: 在这里添加坐标点的逻辑
                 })
 
                 // 商店：服务器物品交易（购买/出售）
-                .button("商店", p -> {
+                .button("textures/items/iron_sword.png", p -> {
                     p.sendMessage("§a[菜单] §f你点击了「商店」");
                     // TODO: 在这里添加商店的逻辑
                 })
@@ -45,13 +45,13 @@ public class DDUIMainMenu {
                 // === 第二行：2个按钮 ===
 
                 // 跨服：切换/传送到其他服务器
-                .button("跨服", p -> {
+                .button("textures/items/iron_sword.png", p -> {
                     p.sendMessage("§a[菜单] §f你点击了「跨服」");
                     // TODO: 在这里添加跨服的逻辑
                 })
 
                 // 领地：管理个人领地（创建、权限设置等）
-                .button("领地", p -> {
+                .button("textures/items/iron_sword.png", p -> {
                     p.sendMessage("§a[菜单] §f你点击了「领地」");
                     // TODO: 在这里添加领地的逻辑
                 })
@@ -61,19 +61,19 @@ public class DDUIMainMenu {
                 // === 第三行：3个按钮 ===
 
                 // 私信：玩家间私聊
-                .button("私信", p -> {
+                .button("textures/items/iron_sword.png", p -> {
                     p.sendMessage("§a[菜单] §f你点击了「私信」");
                     // TODO: 在这里添加私信的逻辑
                 })
 
                 // 给予我服务器菜单：管理员获取服务器管理功能
-                .button("给予我服务器菜单", p -> {
+                .button("textures/items/iron_sword.png", p -> {
                     p.sendMessage("§a[菜单] §f你点击了「给予我服务器菜单」");
                     // TODO: 在这里添加服务器菜单的逻辑
                 })
 
                 // 其他功能：更多自定义功能的入口
-                .button("其他功能", p -> {
+                .button("textures/items/iron_sword.png", p -> {
                     p.sendMessage("§a[菜单] §f你点击了「其他功能」");
                     // TODO: 在这里添加其他功能的逻辑
                     // 示例：点击后打开一个二级菜单
