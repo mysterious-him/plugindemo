@@ -1,6 +1,0 @@
-name: DDUIDemo
-main: top.mystery.nukkit_plugin.Main
-version: "1.0.0"
-author: mystery
-api: ["1.0.0"]
-description: DDUI 菜单模板演示 - 基于 Nukkit-MOT
